@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
 jobs:
-  steps: 
+  Deploy: 
     name: Deploy
     runs-on: ubuntu-latest
 
@@ -13,5 +13,5 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Build using script
-      uses: scripts/buildprod.sh
+      run: scripts/buildprod.sh
 
