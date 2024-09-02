@@ -23,4 +23,5 @@ go build -o notely && ./notely
 
 You do *not* need to set up a database or any interactivity on the webpage yet. Instructions for that will come later in the course!
 
-this branch has been updated with this very thoughtfull comment that is written right on line 25.
+
+Testing the CD workflow
